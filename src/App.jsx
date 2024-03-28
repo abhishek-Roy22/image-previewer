@@ -43,6 +43,7 @@ function App() {
             <ImageCard
               key={image.id}
               image={image}
+              selectedImage={selectedImage}
               handleClick={() => handleClick(image.src)}
             />
           ))}
